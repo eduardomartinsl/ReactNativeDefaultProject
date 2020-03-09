@@ -1,0 +1,16 @@
+Estruturação básica do projeto: 
+
+helpers: 
+    - Arquivos e funções de auxílio no projeto (Formatadores numéricos, validações de cpf, fuso horário, etc)
+
+modules: 
+    - estruturação visual do projeto. Normalmente possui somente UI
+
+resources: 
+    - Agrupamento de recursos utilizados no projeto (cores, endereços de endpoint, etc)
+
+components
+    - componentes comumente utilizados pelo projeto inteiro (Botões, textInputs, labels)
+
+store
+    - Armazenamento key-value presistente assíncrono
