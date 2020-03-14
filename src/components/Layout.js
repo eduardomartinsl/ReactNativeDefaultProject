@@ -14,7 +14,6 @@ export const Row = styled.View`
     flex-direction: row;
 `
 
-
 //O container é im componente que aplica a área de visão "segura", limitando a componentização somente na parte visível do dispositivo
 export const Container = styled(SafeAreaView)`
     flex: 1;
