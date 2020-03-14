@@ -1,0 +1,27 @@
+Estrutura de testes consiste em: 
+
+    1 - Criação de uma pasta chamada __tests__ dentro do conjunto que é desejado realizar os testes
+    2 - Criação do arquivo de teste (NomeDoArquivo.test.js - padrão definido)
+    3 - implementação estrutural: 
+    
+    import classeImportada //arquivo a ser testado
+
+    describe("situacaoASerValidada", () => {
+
+        test("condicao a ser testada", () => {
+            //declaracoes de condicoes
+            
+
+            const result = classeImportada();
+
+            expect(result).toEqual() //o que se espera da instancia de result
+        })
+
+        test("segundo teste", () =>{
+            
+        })
+
+        test("terceiro teste", () =>{
+            
+        })
+    })
