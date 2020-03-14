@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import firebase from '@react-native-firebase/app';
+import { material } from 'react-native-typography';
 
 // TODO(you): import any additional firebase services that you require for your app, e.g for auth:
 //    1) install the npm package: `yarn add @react-native-firebase/auth@alpha` - you do not need to
@@ -23,6 +24,7 @@ const firebaseCredentials = Platform.select({
 export default function MainScreen() {
   return (
     <View style={styles.container}>
+      <Text style={material.body1}> OH HY! </Text>
       <Text style={styles.welcome}>Welcome to React Native + Firebase!</Text>
       <Text style={styles.instructions}>To get started, edit App.js</Text>
       <Text style={styles.instructions}>{instructions}</Text>
